@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Modal from "./Modal";
+import Modal from "../Modal";
 
 const EnterTransaction = ({ close }) => {
     const [transaction, setTransaction] = useState({ amount: 0., details: "", type: "Deposit" });
